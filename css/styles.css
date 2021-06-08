@@ -1,0 +1,303 @@
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+body {
+    background-color: #ff80bf;
+    
+}
+
+nav {
+    background-color: white;
+}
+
+#lista li a {
+    text-decoration: none;
+    color: tomato;
+}
+
+#lista li {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 1em;
+    padding: 20px;
+}
+
+#lista li a:hover {
+    opacity: .5;
+}
+
+#logo {
+    background: url("../images/Logo.png") no-repeat;
+    background-size: 220px;
+    width: 220px;
+    height: 30px;
+}
+
+.center {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+#info, #instrukcije {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-family: 'Bad Script', cursive;
+    font-size: 2rem;
+    color: white;
+}
+
+hr {
+    background-color: white;
+}
+
+footer {
+    clear: left;
+    padding: 30px;
+    background-color: #ccff66;
+}
+
+#onama {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: white;
+    font-family: 'Oxygen', sans-serif;
+}
+
+#kontakt {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+#mapa {  
+  width: 800px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media(max-width:768px){
+    #map {
+        width: 450px;
+        height: 350px;
+    }
+}
+
+.greska {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8em;
+     color: red;
+}
+
+#prijava, #registracija {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 500px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.loginPolje, .polje {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+#dugme1, #dugme2 {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+  }
+
+  .zastava-div {
+      position: relative;
+      height: 250px;
+      width: 250px;
+      margin: 0 auto 15px;
+      border-radius: 50%;
+  }
+
+  .zastava {
+      margin-bottom: 20px;
+      border-radius: 50%;
+  }
+
+  .zastava:hover {
+    box-shadow: 1px 1px 15px 16px;
+    height: 280px;
+    width: 280px;
+  }
+
+  .zastava-div:hover {
+    height: 280px;
+    width: 280px;
+  }
+
+  .jezik-span {
+      color: blue;
+      position: absolute;
+      top: 50%;
+      right: 0px;
+      width: 100%;
+      background-color: black;
+      border-radius: 2em / 5em;
+      opacity: .9;
+  }
+
+  #dugme2 {
+      border-radius: 5px;
+      width: 50%;
+      background: #ff5050;
+  }
+
+  .polje {
+      border: none;
+      background: white;
+  }
+
+  .input-group {
+    position: relative;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #ccc;
+  }
+
+  #dugme2:hover {
+      background: #ff3333;
+  }
+
+  .spisakSadrzaja {
+      float: left;
+      width: 30%;
+      background-color: #f1f1f1;
+      overflow-y: scroll;
+      height: 623px;
+  }
+
+  .videoLekcija, .kviz, .zadatak, .dodatno {
+      display: block;
+      text-align: left;
+      color: black;
+      padding: 20px;
+      cursor: pointer;
+  }
+
+  .videoLekcija:hover, .kviz:hover, .zadatak:hover, .dodatno:hover {
+      text-decoration: none;
+      color: black;
+      background-color:#ccc;
+  }
+
+  .padajuci {
+    background-color: #f1f1f1;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+
+  .padajuci h2 {
+      font-size: 20px;
+  }
+
+  .videoLekcije, .zadaci, .kvizovi, .dodatniMaterijal {
+      display: none;
+  }
+  
+  .spisakSadrzaja h1 {
+      text-align: center;
+  }
+  
+  .fa-play-circle, .fa-pen, .fa-question-circle, .fa-sun, .fa-smile-beam {
+      margin-right: 5px;
+  }
+
+  .sadrzaj {
+    float: left;  
+    width: 70%;
+    height: 623px;
+  }
+
+  .sadrzaj-engleski {
+    background-image: url("../images/britanija.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .sadrzaj-francuski {
+    background-image: url("../images/francuska.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .sadrzaj-nemacki {
+    background-image: url("../images/nemacka.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .fa-sun {
+      color: yellow;
+      margin-right: 10px;
+  }
+
+  @media (max-width: 991px){
+    .sadrzaj, .spisakSadrzaja {
+      width: 100%;
+      height: auto;
+    }
+    .spisakSadrzaja h1 {
+        text-align: left;
+    }
+  }
+
+  .video-container {
+      position: relative;
+  }
+
+  #vid-lekcija-yyy {
+        display: block;
+  }
+ 
+ .aktivna {
+     background-color: #ccc;
+     border-left: 8px solid #80bfff;
+ }
+
+ .fa-check {
+     color: green;
+ }
+
+ 
+ 
+
+ 
+ 
+ 
